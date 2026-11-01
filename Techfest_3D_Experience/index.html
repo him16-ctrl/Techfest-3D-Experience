@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070914" />
+  <title>TECHFEST — Beyond The Possible</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">T</span><span>TECH<span class="accent">FEST</span><small>FUTURE STARTS HERE</small></span></a>
+    <nav><a href="#experience">Experience</a><a href="#events">Events</a><a href="#about">About</a></nav>
+    <a class="nav-cta" href="#register">Enter the arena <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <canvas id="space"></canvas>
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> THE NEXT FRONTIER OF INNOVATION</div>
+        <h1>BEYOND<br><span class="outline">THE</span> <span class="gradient">POSSIBLE.</span></h1>
+        <p class="hero-lede">One arena. Infinite ideas. Step into a world where imagination meets engineering and the future is yours to build.</p>
+        <div class="hero-actions"><a class="button primary" href="#events">Explore events <span>↗</span></a><a class="button ghost" href="#experience"><span class="play">▶</span> Discover the experience</a></div>
+        <div class="hero-meta"><div><strong>03</strong><span>DAYS OF CHAOS</span></div><i></i><div><strong>25+</strong><span>EVENTS & CHALLENGES</span></div><i></i><div><strong>∞</strong><span>WAYS TO CREATE</span></div></div>
+      </div>
+      <div class="hero-side-note">SCROLL TO EXPLORE <span>↓</span></div>
+      <div class="orbit-label label-one">// INNOVATE</div><div class="orbit-label label-two">// CREATE</div>
+    </section>
+
+    <section class="ticker"><div class="ticker-track"><span>BUILD THE FUTURE ✳</span><span>BREAK THE LIMITS ✳</span><span>THINK DIFFERENT ✳</span><span>BUILD THE FUTURE ✳</span><span>BREAK THE LIMITS ✳</span><span>THINK DIFFERENT ✳</span></div></section>
+
+    <section class="experience section-pad" id="experience">
+      <div class="section-kicker">01 / THE EXPERIENCE</div>
+      <div class="experience-layout">
+        <div class="experience-copy"><h2>THE FUTURE<br>IS <span class="gradient">INTERACTIVE.</span></h2><p>Don't just watch technology evolve. Touch it, challenge it, and become part of the story. Move your cursor around the core. Scroll to shift its world.</p><div class="micro-stat"><span class="micro-line"></span><span>AN IMMERSIVE TECH PLAYGROUND</span></div></div>
+        <div class="core-wrap"><div class="core-ring ring-a"></div><div class="core-ring ring-b"></div><div class="core-ring ring-c"></div><div class="core-glow"></div><div class="core-label">LIVE<br><b>ENERGY</b></div><div class="core-hint">MOVE YOUR CURSOR ↗</div></div>
+      </div>
+    </section>
+
+    <section class="events section-pad" id="events">
+      <div class="section-heading"><div><div class="section-kicker">02 / CHOOSE YOUR CHALLENGE</div><h2>ENTER THE <span class="gradient">ARENA.</span></h2></div><p>Curiosity is your only prerequisite.<br>Pick a domain. Make your mark.</p></div>
+      <div class="event-grid">
+        <article class="event-card card-cyan"><div class="card-number">01</div><div class="event-icon">⌘</div><div class="card-tag">CODE / LOGIC</div><h3>HACK<br>THE SYSTEM</h3><p>Crack problems. Build solutions. Race against the clock.</p><a href="#register">Explore challenge <span>↗</span></a><div class="card-orb"></div></article>
+        <article class="event-card card-violet"><div class="card-number">02</div><div class="event-icon">◈</div><div class="card-tag">ROBOTICS / AI</div><h3>MACHINES<br>UNLEASHED</h3><p>Give intelligence a body and watch your ideas move.</p><a href="#register">Explore challenge <span>↗</span></a><div class="card-orb"></div></article>
+        <article class="event-card card-orange"><div class="card-number">03</div><div class="event-icon">✳</div><div class="card-tag">DESIGN / BUILD</div><h3>IMAGINE<br>IT. MAKE IT.</h3><p>Prototype the unexpected. Turn wild concepts real.</p><a href="#register">Explore challenge <span>↗</span></a><div class="card-orb"></div></article>
+      </div>
+    </section>
+
+    <section class="manifesto" id="about"><div class="manifesto-inner"><div class="section-kicker">03 / OUR MANIFESTO</div><h2>DON'T WAIT FOR<br>THE FUTURE. <span class="gradient">MAKE IT.</span></h2><p>Techfest is a collision of bold minds, ambitious ideas, and hands-on discovery. Come curious. Leave changed.</p><div class="manifesto-stamp">IDEAS<br>IN<br>MOTION<span>✳</span></div></div></section>
+
+    <section class="register section-pad" id="register"><div class="register-panel"><div class="section-kicker">04 / YOUR MOVE</div><h2>READY TO<br><span class="gradient">GO BEYOND?</span></h2><p>The next big thing could start with you.</p><a class="button primary" href="mailto:hello@techfest.example?subject=Techfest%20Registration%20Enquiry">Register your interest <span>↗</span></a><div class="register-decoration">T<span>F</span></div></div></section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">T</span><span>TECH<span class="accent">FEST</span><small>FUTURE STARTS HERE</small></span></a><span>CONCEPT WEBSITE · MADE FOR THE NEXT GENERATION</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
